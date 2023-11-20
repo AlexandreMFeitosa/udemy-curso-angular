@@ -1,0 +1,12 @@
+
+<mat-card>
+    <mat-card-title>Lista de Produtos Cadastrados</mat-card-title>
+    <form>
+        <ul>
+            <li *ngFor="let product of products">
+                <strong>Nome - Preço </strong>
+                <p>{{ product.name }} / {{product.price }}</p>
+            </li>
+        </ul>  
+    </form>
+</mat-card>
