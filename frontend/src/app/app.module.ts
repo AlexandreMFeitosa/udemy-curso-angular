@@ -27,7 +27,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { ProductReadComponent } from './components/product/product-read/product-read.component'
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { HttpClientModule } from '@angular/common/http'
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
+    ProductReadComponent,
   
   ],
   imports: [
